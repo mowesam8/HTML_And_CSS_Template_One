@@ -212,10 +212,14 @@ i{
     -ms-transition: var(--main-duration);
     -o-transition: var(--main-duration);
 }
+.features .feat:first-of-type i{
+    font-size: 42.7px;
+}
 .features .feat:hover{
     box-shadow: 2px 2px 5px  var(--text-color);
 }
 .features .feat h3{
+    margin: 10px 0;
     font-weight: 800;
 }
 .features .feat p{
@@ -249,7 +253,7 @@ i{
     flex: 1;
 }
 .services .service .text h3{
-    margin-top: 0;
+    margin-bottom: 10px;
 }
 .services .service .text p{
     color:  var(--text-color);
@@ -307,6 +311,7 @@ i{
 }
 .portfolio .card .info h3{
     margin: 0;
+    margin-bottom: 10px;
     font-weight: 800;
 }
 .portfolio .card .info p{
